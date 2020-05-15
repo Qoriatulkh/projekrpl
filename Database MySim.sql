@@ -111,7 +111,8 @@ CREATE TABLE `tes praktek` (
 --
 
 CREATE TABLE `tes tulis` (
-  `Tes Tulis ID` int(11) NOT NULL
+  `Tes Tulis ID` int(11) NOT NULL,
+  `Jumlah Soal` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
