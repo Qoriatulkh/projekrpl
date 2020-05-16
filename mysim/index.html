@@ -26,6 +26,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+ 
 
 </head>
 
@@ -47,8 +48,6 @@
               <li class="active"><a href="#hero">Beranda</a></li>
               <li><a href="#about">Tentang</a></li>
               <li><a href="#services">Layanan</a></li>
-              <li><a href="#portfolio">Portfolio</a></li>
-              <li><a href="#pricing">Pricing</a></li>
               <li class="drop-down"><a href="">Drop Down</a>
                 <ul>
                   <li><a href="#">Drop Down 1</a></li>
@@ -71,8 +70,52 @@
             </ul>
           </nav><!-- .nav-menu -->
 
-          <a href="#about" class="get-started-btn scrollto">Get Started</a>
+          <h4><a href="daftar.html" class="get-started-btn scrollto">Daftar</a></h4>
+          <h4 style="color:white; font-size:10px; margin-left:80px"> Sudah punya akun? </h4>
+          <h5><button onclick="document.getElementById('id01').style.display='block'" class="get-started-btn">Masuk</button></h5>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="assets/img/akun.png" alt="Avatar" style="margin-top:40px">
+      <h2 style="margin-top:35px;color:white">Masuk Akun</h2> 
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Username" name="uname" required>
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Password" name="psw" required>
+      <button type="submit" class="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
         </div>
+        
       </div>
 
     </div>
@@ -83,9 +126,10 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-xl-8">
-          <img src="assets/img/polisi.png">
+          <img src="assets/img/korlantas.png" class="img">
           <h1>MySIM</h1>
-          <h2>Layanan SIM Online</h2>
+          <h2>Layanan SIM Online untuk ujian dan penjadwalan</h2>
+          <p style="color:white">Stop Pelanggaran, Stop Kecelakaan, Keselamatan untuk Kemanusiaan.</p>
           <a href="https://www.youtube.com/watch?v=R2fzt1jVvLg" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
         </div>
       </div>
