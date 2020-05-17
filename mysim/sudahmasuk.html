@@ -26,6 +26,8 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/kalender.css" rel="stylesheet">
+  <link href="assets/css/baru.css" rel= "stylesheet">
  
 
 </head>
@@ -54,8 +56,9 @@
                   <li><button onclick="document.getElementById('id03').style.display='block'" style="background-color: white;color:black">Profil</button></li>
                   <div id="id03" class="modal">
                       <form class="modal-content animate" action="/action_page.php" method="post">
+                        <span onclick="document.getElementById('id03').style.display='none'" class="close" title="Close Modal">&times;</span>
                         <div class="sabar">
-                            <span onclick="document.getElementById('id03').style.display='none'" class="close" title="Close Modal">&times;</span>
+                            
                             <img src="assets/img/akun.png" alt="Avatar" style="margin-top:40px">
                             <h2 style="margin-top:35px;color:white">Data Diri</h2> 
                         </div>
@@ -139,7 +142,7 @@
                         <tr>
                             <td class="halu">Golongan SIM</td>
                             <td>:</td>
-                            <td>A</td>
+                            <td>C</td>
                         </tr>
                         <tr>
                             <td class="halu">Alamat Email</td>
@@ -181,8 +184,81 @@
         }
     }
     </script>
-                  <li><a href="#">Jadwal</a></li>
-                  <li><a href="#">Tes</a></li>
+                  <li><button onclick="document.getElementById('id08').style.display='block'" style="background-color: white;color:black">Jadwal</button></li>
+                  <div id="id08" class="modal">
+                    <form class="modal-content animate" action="/action_page.php" method="post">
+                      <div class="imgcontainer">
+                            
+                        <img src="assets/img/akun.png" alt="Avatar" style="margin-top:40px">
+                        <h2 style="margin-top:35px;color:white">Penjadwalan Tes</h2>
+                       
+                    </div>
+                    <div class="card">
+                      <table>
+                        <tr>
+                          <td class="halu">Jadwal</td>
+                          <td>:</td>
+                          <td><input type="text" placeholder="DD/MM/YYYY" name="Token"></td>
+                        </tr>
+                      </table>
+                      <button class="submit"><a href="sudahjadwal.html" class="w3-button">Simpan</a></button>
+                    </div>
+                      <span onclick="document.getElementById('id08').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    </form>
+                    </div>
+                  <!--tes-->
+                  <li><button onclick="document.getElementById('id05').style.display='block'" style="background-color: white;color:black">Tes</button></li>
+                  <div id="id05" class="modal">
+                      <form class="modal-content animate" action="/action_page.php" method="post">
+                        
+                        <div class="imgcontainer">
+                            
+                            <img src="assets/img/akun.png" alt="Avatar" style="margin-top:40px">
+                            <h2 style="margin-top:35px;color:white">Konfirmasi Tes</h2>
+                           
+                        </div>
+                        <p style="color:black;text-align:center">Silahkan periksa kembali data tes yang akan diikuti.</p> 
+                        <div class="cards">
+
+                          <table>
+                          
+                            <tr>
+                              <td class="halu">Username (Kode Peserta)</td>
+                              <td>:</td>
+                              <td>121019999</td>
+                          
+                            </tr>
+                            <tr>
+                              <td class="halu">Tes</td>
+                              <td>:</td>
+                              <td>Tes Tertulis SIM C</td>
+                          
+                            </tr>
+                            <tr>
+                              <td class="halu">Jumlah Soal</td>
+                              <td>:</td>
+                              <td>30 Butir</td>
+                           
+                          
+                            </tr>
+                            <tr>
+                              <td class="halu">Waktu</td>
+                              <td>:</td>
+                              <td>15 Menit</td>
+                          
+                            </tr>
+                            <tr>
+                              <td class="halu">Token</td>
+                              <td>:</td>
+                              <td><input type="text" placeholder="Token" name="Token"></td>
+                            </tr>
+                          </table>
+                          <button class="submit"><a href="soal.html" class="w3-button">Masuk</a></button>
+                          
+                        </div>
+                      </form>
+                     
+                  </div>
                   <li><a href="index.html">Keluar</a></li>
                 </ul>
               </li>
