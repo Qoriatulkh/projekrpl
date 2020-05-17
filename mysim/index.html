@@ -85,7 +85,7 @@
               <label for="psw"><b>Kota</b></label>
               <input type="text" placeholder="" name="Kota">
               <label for="psw"><b>Alamaat</b></label>
-              <input type="text" placeholder="" name="Alamat">
+              <input type="text" placeolder="" name="Alamat">
               <label for="psw"><b>No. HP</b></label>
               <input type="text" placeholder="" name="HP">
               <label for="psw"><b>Pendidikan</b></label>
@@ -111,13 +111,13 @@
               </div>
               <label for="psw" style="margin-top:30px"><b>Alamat Email:</b></label>
               <input type="text" placeholder="" name="email">
-              <label for="psw"><b>Polda Kedatangan:</b></label>
+              <label for="psw"><b>Polda Kedatangan</b></label>
               <input type="text" placeholder="" name="polda">
-              <label for="psw"><b>SATPAS Kedatangan:</b></label>
+              <label for="psw"><b>SATPAS Kedatangan</b></label>
               <input type="text" placeholder="" name="satpas">
-              <label for="psw"><b>Alamat Satpas:</b></label>
-              <input type="text" placeholder="" name="Alamat Satpas">
-              <label for="psw"><b>Password:</b></label>
+              <label for="psw"><b>Alamat SATPAS</b></label>
+              <input type="text" placeholder="" name="satpas">
+              <label for="psw"><b>Password</b></label>
               <input type="password" placeholder="" name="password">
              
           
@@ -247,9 +247,50 @@
                   </tr>
                   
                   </table>
-                  <button class="submit"><a href="sudahmasuk.html" class="submit">Submit</a></button>
+                  
+                  <button><span onclick="document.getElementById('id03').style.display='none'" class="submit" title="Close Modal">Submit&times;</span></button>
               </div>
+            </div>
+            
+              
 <div class="container" style="background-color:#f1f1f1">
+  <h3><button onclick="document.getElementById('id04').style.display='block'" class="Submit">Lanjutkan Pembayaran</button></h3>
+  <div id="id04" class="modal">
+    <form class="modal-content animate" action="/action_page.php" method="post">
+      <span onclick="document.getElementById('id04').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <div class="card" >
+       
+      <div class="sabar" >
+          
+          <img src="assets/img/akun.png" alt="Avatar" style="margin-top:40px">
+          <h2 style="margin-top:35px;color:white">Pembayaran</h2> 
+      </div>
+      <label for="psw"><b>Metode Pembayaran</b></label>
+      <div class="custom-select" style="width:200px;">
+        <select>
+          <option value="0">Pilih</option>
+          <option value="1">BRIVA</option>
+          <option value="2">BNI</option>
+          <option value="3">BCA</option>
+          <option value="4">Mandiri</option>
+        </select>
+      </div>
+      <label for="psw" style="margin-top: 40px"><b>Tanggal Kedatangan</b></label>
+      <input type="text" placeholder="DD/MM/YYYY" name="equired">
+      <div class="container" style="background-color:#f1f1f1">
+        <h3>Catatan:</h3>
+        <p>1. Pastikan data rekening tujuan pengambilan biaya permohonan SIM benar; </p>
+        <p>2. Identitas pemilik rekening untuk pengembalian dana PNBP SIM wajib sesuai dengan data data permohonan registrasi SIM.</p> 
+        <p>3. Kesalahan informasi terkait rekening tujuan pengembalian merupakan tanggung jawab pemohon.</p>
+        <p>Transfer ke Rekening berikut.</p>
+        <li>Mandiri: 123456789</li>
+        <li>BNI: 12345666</li>
+        <li>BCA: 6574747474</li>
+        <li>BRI: 09838383</li>
+        <p style="color:red">Pembayaran akan dicek secara otomatis.</p>
+        <button class="submit"><a href="sudahmasuk.html">Submit</a></button>
+      </div>
+      </div>
   
 </div>
 </form>
