@@ -54,30 +54,133 @@
                   <li><button onclick="document.getElementById('id03').style.display='block'" style="background-color: white;color:black">Profil</button></li>
                   <div id="id03" class="modal">
                       <form class="modal-content animate" action="/action_page.php" method="post">
-                        <div class="imgcontainer">
+                        <div class="sabar">
                             <span onclick="document.getElementById('id03').style.display='none'" class="close" title="Close Modal">&times;</span>
                             <img src="assets/img/akun.png" alt="Avatar" style="margin-top:40px">
-                            <h2 style="margin-top:35px;color:white">Profil</h2> 
+                            <h2 style="margin-top:35px;color:white">Data Diri</h2> 
                         </div>
-
                         <div class="card">
-                            <img src="/w3images/team2.jpg" alt="John" style="width:100%">
-                            <h1>John Doe</h1>
-                            <p class="title">CEO & Founder, Example</p>
-                            <p>Harvard University</p>
-                            <div style="margin: 24px 0;">
-                              <a href="#"><i class="fa fa-dribbble"></i></a> 
-                              <a href="#"><i class="fa fa-twitter"></i></a>  
-                              <a href="#"><i class="fa fa-linkedin"></i></a>  
-                              <a href="#"><i class="fa fa-facebook"></i></a> 
-                            </div>
-                            <p><button>Contact</button></p>
-                          </div>
+
+                        <table>
+                        
+                          <tr>
+                            <td class="halu">Kewarganegaraan</td>
+                            <td>:</td>
+                            <td>WNI</td>
+                        
+                          </tr>
+                          <tr>
+                            <td class="halu">NIK</td>
+                            <td>:</td>
+                            <td>1271123456789</td>
+                        
+                          </tr>
+                          <tr>
+                            <td class="halu">Nama Lengkap</td>
+                            <td>:</td>
+                            <td>Qoriatul K</td>
+                         
+                        
+                          </tr>
+                          <tr>
+                            <td class="halu">Tinggi</td>
+                            <td>:</td>
+                            <td>160 cm</td>
+                        
+                        </tr>
+                         <tr>
+                            <td class="halu">Gol. Darah</td>
+                            <td>:</td>
+                            <td>O</td>
+                        
+                          </tr>
+                          <tr>
+                            <td class="halu">Kode Pos</td>
+                            <td>:</td>
+                            <td>123456</td>
+                        
+                          </tr>
+                          <tr>
+                            <td class="halu">Kota</td>
+                            <td>:</td>
+                            <td>Medan</td>
+                         
+                        
+                          </tr>
+                          <tr>
+                            <td class="halu">Alamat</td>
+                            <td>:</td>
+                            <td>Martubung 2</td>
+                        
+                          </tr>
+                         <tr>
+                            <td class="halu">No. Handphone</td>
+                            <td>:</td>
+                            <td>081234567890</td>
+                        
+                        </tr>
+                          <tr>
+                            <td class="halu">Pendidikan</td>
+                            <td>:</td>
+                            <td>S1</td>
+                        
+                          </tr>
+                          <tr>
+                            <td class="halu">Pekerjaan</td>
+                            <td>:</td>
+                            <td>Belum Bekerja</td>
+                        </tr>
+                        <tr>
+                            <td class="halu">Jenis Permohonan</td>
+                            <td>:</td>
+                            <td>SIM Baru</td>
+                        </tr>
+
+                        <tr>
+                            <td class="halu">Golongan SIM</td>
+                            <td>:</td>
+                            <td>A</td>
+                        </tr>
+                        <tr>
+                            <td class="halu">Alamat Email</td>
+                            <td>:</td>
+                            <td>qoriatul@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td class="halu">POLDA Kedatangan</td>
+                            <td>:</td>
+                            <td>Medan</td>
+                        </tr>
+
+                        <tr>
+                            <td class="halu">SATPAS Kedatangan</td>
+                            <td>:</td>
+                            <td>Medan</td>
+                        </tr>
+                        <tr>
+                            <td class="halu">Alamat SATPAS</td>
+                            <td>:</td>
+                            <td>Jln. Bhayangkara</td>
+                        </tr>
+                        
+                        </table>
+                    </div>
     <div class="container" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('id03').style.display='none'" class="cancelbtn">Cancel</button>
+        
     </div>
   </form>
 </div>
+<script>
+    // Get the modal
+    var modal = document.getElementById('id03');
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+    </script>
                   <li><a href="#">Jadwal</a></li>
                   <li><a href="#">Tes</a></li>
                   <li><a href="index.html">Keluar</a></li>
