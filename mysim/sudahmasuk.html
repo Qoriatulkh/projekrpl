@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Selamat Datang di MySIM </title>
+  <title>MySIM: Layanan SIM Online POLRI </title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
 
@@ -48,82 +48,44 @@
               <li class="active"><a href="#hero">Beranda</a></li>
               <li><a href="#about">Tentang</a></li>
               <li><a href="#services">Layanan</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li class="drop-down"><a href="">Qoriatul</a>
+                <ul>
+                  
+                  <li><button onclick="document.getElementById('id03').style.display='block'" style="background-color: white;color:black">Profil</button></li>
+                  <div id="id03" class="modal">
+                      <form class="modal-content animate" action="/action_page.php" method="post">
+                        <div class="imgcontainer">
+                            <span onclick="document.getElementById('id03').style.display='none'" class="close" title="Close Modal">&times;</span>
+                            <img src="assets/img/akun.png" alt="Avatar" style="margin-top:40px">
+                            <h2 style="margin-top:35px;color:white">Profil</h2> 
+                        </div>
 
-            </ul>
-          </nav><!-- .nav-menu -->
-          <!--UNTUK SIGN-UP-->
-          <h5><button onclick="document.getElementById('id02').style.display='block'" class="get-started-btn">Registrasi</button></h5>
-          <div id="id02" class="modal">
-            <form action="/action_page.php">
-              <div class="contaiiner">
-                <h1>Register</h1>
-                <p>Please fill in this form to create an account.</p>
-                <hr>
-            
-                <label for="email"><b>Email</b></label>
-                <input type="text" placeholder="Enter Email" name="email" required>
-            
-                <label for="psw"><b>Password</b></label>
-                <input type="password" placeholder="Enter Password" name="psw" required>
-            
-                <label for="psw-repeat"><b>Repeat Password</b></label>
-                <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-                <hr>
-                <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-            
-                <button type="submit" class="registerbtn">Register</button>
-              </div>
-              
-              <div class="container signin">
-                <p>Already have an account? <a href="#">Sign in</a>.</p>
-              </div>
-            </form>
-          </div>
-          <h4 style="color:white; font-size:10px; margin-left:100px"> Sudah punya akun? </h4>
-         <!-- Untuk Login-->
-          <h5><button onclick="document.getElementById('id01').style.display='block'" class="get-started-btn">Masuk</button></h5>
-
-<div id="id01" class="modal">
-  
-  <form class="modal-content animate" action="/action_page.php" method="post">
-    <div class="imgcontainer">
-      
-      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-      <img src="assets/img/akun.png" alt="Avatar" style="margin-top:40px">
-      <h2 style="margin-top:35px;color:white">Masuk Akun</h2> 
-    </div>
-
-    <div class="container">
-      <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Username" name="uname" required>
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Password" name="psw" required>
-      <button type="submit" class="submit"><a href=sudahmasuk.html style="color:white">Masuk</a></button>
-      <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-      </label>
-    </div>
-
+                        <div class="card">
+                            <img src="/w3images/team2.jpg" alt="John" style="width:100%">
+                            <h1>John Doe</h1>
+                            <p class="title">CEO & Founder, Example</p>
+                            <p>Harvard University</p>
+                            <div style="margin: 24px 0;">
+                              <a href="#"><i class="fa fa-dribbble"></i></a> 
+                              <a href="#"><i class="fa fa-twitter"></i></a>  
+                              <a href="#"><i class="fa fa-linkedin"></i></a>  
+                              <a href="#"><i class="fa fa-facebook"></i></a> 
+                            </div>
+                            <p><button>Contact</button></p>
+                          </div>
     <div class="container" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-      <span class="psw">Forgot <a href="#">password?</a></span>
+      <button type="button" onclick="document.getElementById('id03').style.display='none'" class="cancelbtn">Cancel</button>
     </div>
   </form>
 </div>
-<!--Login selesai-->
-<script>
-// Get the modal
-var modal = document.getElementById('id01');
+                  <li><a href="#">Jadwal</a></li>
+                  <li><a href="#">Tes</a></li>
+                  <li><a href="index.html">Keluar</a></li>
+                </ul>
+              </li>
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-</script>
-
+            </ul>
+         
         </div>
         
       </div>
