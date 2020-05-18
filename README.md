@@ -60,3 +60,12 @@ Target pengguna kami yaitu masyarakat yang ingin membuat SIM.</li>
 
 ## Proses Mengerjakan Soal Tertulis 
 ![messageImage_1589776400274.jpg] (https://raw.githubusercontent.com/Qoriatulkh/projekrpl/master/mysim/assets/img/messageImage_1589776400274.jpg)
+
+# Gantt Chart
+## Team Gantt
+![messageImage_1589776149948.jpg](https://raw.githubusercontent.com/Qoriatulkh/projekrpl/master/mysim/assets/img/messageImage_1589776149948.jpg)
+
+# ERD
+![ERD.png](https://raw.githubusercontent.com/Qoriatulkh/projekrpl/master/mysim/assets/img/ERD.png)
+
+# Hasil Implementasi Perangkat Lunak
