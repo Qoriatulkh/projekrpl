@@ -15,11 +15,17 @@
 <p>Menghemat waktu serta mempermudah user dan staff dalam proses pembuatan SIM, dan mengurangi penggunaan kertas.</p>
 <h1><a id="user-content-ruang-lingkup" class="anchor" aria-hidden="true" href="#ruang-lingkup"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Ruang Lingkup</h1>
 <ol>
-  <p>Perangkat Keras</p>
-  <li>Processor : Lenovo AMD A9 9420 Core Clock hingga 3,6 Ghz </li>
-  <li> Memory : 4 GB DDR3 </li>
-  <li>Graphics Card : R5 Graphics / AMD Radeon™ 520 2GB VRAM diskrit. </li>
-  <li>Storage : 1 TB </li>
+<p><strong>Perangkat Keras</strong></p>
+<li>Processor : Lenovo AMD A9 9420 Core Clock hingga 3,6 Ghz </li>
+<li> Memory : 4 GB DDR3 </li>
+<li>Graphics Card : R5 Graphics / AMD Radeon™ 520 2GB VRAM diskrit. </li>
+<li>Storage : 1 TB </li>
+  
+<p><strong>Perangkat Lunak</strong></p>
+<li>Framework : Django </li>
+<li>Database : Mysql</li>
+<li>Server : Apache Server</li>
+<li>Text Editor : Sublime / Visual Basic Studio</li>
 </ol>
 <h1><a id="user-content-deskripsi-perangkat-lunak" class="anchor" aria-hidden="true" href="#deskripsi-perangkat-lunak"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Deskripsi Perangkat Lunak</h1>
 <p>Perangkat lunak MySim dapat mempermudah staff  dari segi waktu dan estimasi biaya dalam hal administasi pembuatan SIM. Selain itu, dapat menghemat waktu user untuk mengantri saat mendaftar. Perangkat lunak tersebut juga akan mempunyai fitur ujian tulis paperless, sehingga mengurangi penggunaan kertas dan juga mempermudah staff untuk melakukan pemeriksaan ujian tulis dikarenakan sistem akan otomatis menilai hasil para peserta. Perangkat lunak tersebut akan memiliki fitur tips - tips dalam berkendara yang baik dan benar.</p>
