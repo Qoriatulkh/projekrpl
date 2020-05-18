@@ -56,10 +56,10 @@ Target pengguna kami yaitu masyarakat yang ingin membuat SIM.</li>
 ![messageImage_1589776364430.jpg](https://raw.githubusercontent.com/Qoriatulkh/projekrpl/master/mysim/assets/img/messageImage_1589776364430.jpg)
 
 ## Proses Memilih Jadwal dan Lokasi Ujian 
-![messageImage_1589776380043.jpg] (https://raw.githubusercontent.com/Qoriatulkh/projekrpl/master/mysim/assets/img/messageImage_1589776380043.jpg)
+![messageImage_1589776380043.jpg](https://raw.githubusercontent.com/Qoriatulkh/projekrpl/master/mysim/assets/img/messageImage_1589776380043.jpg)
 
 ## Proses Mengerjakan Soal Tertulis 
-![messageImage_1589776400274.jpg] (https://raw.githubusercontent.com/Qoriatulkh/projekrpl/master/mysim/assets/img/messageImage_1589776400274.jpg)
+![messageImage_1589776400274.jpg](https://raw.githubusercontent.com/Qoriatulkh/projekrpl/master/mysim/assets/img/messageImage_1589776400274.jpg)
 
 # Gantt Chart
 ## Team Gantt
