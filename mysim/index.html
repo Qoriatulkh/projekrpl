@@ -54,70 +54,33 @@
             </ul>
           </nav><!-- .nav-menu -->
           <!--UNTUK SIGN-UP-->
-          <h5><button onclick="document.getElementById('id02').style.display='block'" class="get-started-btn">Registrasi</button></h5>
-          <div id="id02" class="modal">
-          <form class="modal-content animate" action="/action_page.php" method="post" style="padding:15px">
+          <h5><button  onclick="document.getElementById('registrasi').style.display='block'" name = "registrasi" class="get-started-btn">Registrasi</button></h5>
+          <div id="registrasi" class="modal">
+          <form class="modal-content animate" action="/mysim/ProsesDaftar.php" method="POST" style="padding:15px">
             <div class="container">
-              <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+              <span onclick="document.getElementById('registrasi').style.display='none'" class="close" title="Close Modal">&times;</span>
               <h1>Registrasi</h1>
               <p>Mohon isi data diri Anda dengan sebenar-benarnya.</p>
               <hr>
             </div>
               <label for="email"><b>Kewarganegaraan</b></label>
-              <label class="containr">
-                <input type="radio" checked="checked" name="radio">
-                <span class="checkmark"></span> WNI
-              </label>
-              <label class="containr">
-                <input type="radio" checked="checked" name="radio">
-                <span class="checkmark"></span> WNA
-              </label>
-              <label for="psw"><b>NIK</b></label>
-              <input type="text" placeholder="" name="NIK required">
-          
-              <label for="psw"><b>Tinggi</b></label>
-              <input type="text" placeholder="" name="tinggi">
-              
-              <label for="psw"><b>Gol. Darah</b></label>
-              <input type="text" placeholder="" name="Goldar">
-              <label for="psw"><b>Kode Pos</b></label>
-              <input type="text" placeholder="" name="equired">
-              <label for="psw"><b>Kota</b></label>
-              <input type="text" placeholder="" name="Kota">
-              <label for="psw"><b>Alamaat</b></label>
-              <input type="text" placeolder="" name="Alamat">
-              <label for="psw"><b>No. HP</b></label>
-              <input type="text" placeholder="" name="HP">
-              <label for="psw"><b>Pendidikan</b></label>
-              <input type="text" placeholder="" name="Pendidikan">
-              <label for="psw"><b>Pekerjaan</b></label>
-              <input type="text" placeholder="" name="Pekerjaan">
-              <label for="psw"><b>Jenis Permohonan</b></label>
-              <div class="custom-select" style="width:300px;">
-                <select>
-                  <option value="0">Jenis Permohonan:</option>
-                  <option value="1">Perpanjangan SIM</option>
-                  <option value="2">Pembuatan SIM Baru</option>
-                </select>
-              </div>
-              
-              <label for="psw" style="margin-top:30px"><b>Golongan SIM</b></label>
-              <div class="custom-select" style="width:200px;">
-                <select>
-                  <option value="0">Pilih</option>
-                  <option value="1">SIM A</option>
-                  <option value="2">SIM C</option>
-                </select>
-              </div>
-              <label for="psw" style="margin-top:30px"><b>Alamat Email:</b></label>
+              <label for="NIK"><b>NIK</b></label>
+              <input type="text" placeholder="" name="NIK">
+              <label for="nama"><b>Nama</b></label>
+              <input type="text" placeholder="" name="nama">
+        
+              <label for="golongan_darah"><b>Gol. Darah</b></label>
+              <input type="text" placeholder="" name="golongan_darah">
+              <label for="kode_pos"><b>Kode Pos</b></label>
+              <input type="text" placeholder="" name="kode_pos">
+              <label for="kota"><b>Kota</b></label>
+              <input type="text" placeholder="" name="kota">
+              <label for="alamat"><b>Alamat</b></label>
+              <input type="text" placeolder="" name="alamat">
+
+              <label for="email" style="margin-top:30px"><b>Alamat Email:</b></label>
               <input type="text" placeholder="" name="email">
-              <label for="psw"><b>Polda Kedatangan</b></label>
-              <input type="text" placeholder="" name="polda">
-              <label for="psw"><b>SATPAS Kedatangan</b></label>
-              <input type="text" placeholder="" name="satpas">
-              <label for="psw"><b>Alamat SATPAS</b></label>
-              <input type="text" placeholder="" name="satpas">
-              <label for="psw"><b>Password</b></label>
+              <label for="password"><b>Password</b></label>
               <input type="password" placeholder="" name="password">
              
           
@@ -383,7 +346,7 @@
 
 <div id="id01" class="modal">
   
-  <form class="modal-content animate" action="/action_page.php" method="post">
+  <form class="modal-content animate" action="mysim/login.php" method="post">
     <div class="imgcontainer">
       
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
